@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    border: 0px;
+    background: none;
+    list-style: none;
+}
+
+*:focus {
+    outline: none;
+}
+
+body {
+    font-family: "微软雅黑";
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#banner {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#banner img{
+    width: 100%;
+}
+
+#content {
+    width: 980px;
+    margin: 0px auto;
+}
+
+.left {
+    margin-left: 300px;
+}
+
+td {
+    padding: 18px;
+}
+
+.chose {
+    margin: 0px 15px;
+}
+
+.text {
+    height: 20px;
+    width: 220px;
+    padding: 5px 8px;
+}
+
+input {
+    vertical-align: middle;
+    background: #fff url("../images/attention.png") no-repeat 98% center;
+    border: 1px solid #aaa;
+    box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+    border-radius: 2px;
+    transition: padding .25s;
+}
+
+input:focus {
+    background: #fff;
+    border: 1px solid #555;
+    box-shadow: 0 0 3px #aaa;
+    padding-right: 70px;
+}
+
+input:focus:invalid {
+    background: #fff url(../images/warn.png) no-repeat 98% center;
+    border-color: #b03535;
+    box-shadow: 0 0 5px #d45252;
+}
+
+input:required:valid {
+    background: #fff url(../images/right.png) no-repeat 98% center;
+    box-shadow: 0 0 5px #5cd053;
+    border-color: #28921f;
+}
+
+button {
+    padding: 8px 15px;
+    margin-left: 450px;
+    background: #68b12f;
+    border: 1px solid #509111;
+    border-radius: 3px;
+    color: white;
+    text-align: center;
+    font-weight: bold; /*字体粗细为粗体*/
+}
+
+button:hover {
+    opacity: .85;
+    cursor: pointer;
+}
+
+button:active {
+    border: 1px solid #20911e;
+    box-shadow: 0 0 10px 5px #356b0b inset;
+}
+
