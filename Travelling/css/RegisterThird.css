@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    border: 0px;
+    background: none;
+    list-style: none;
+}
+
+*:focus {
+    outline: none;
+}
+
+body {
+    font-family: "微软雅黑";
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#banner {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#banner img{
+    width: 100%;
+}

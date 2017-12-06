@@ -3,21 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>用户注册</title>
+    <link href="css/RegisterSecond.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <div id="banner">
-    <img src="images/banner.jpg">
+    <img src="images/BannerFirst.jpeg">
 </div>
 <div id="content">
     <h2 id="step">用户注册</h2>
-    <form method="post" action="#" id="form">
+    <form method="post" action="registerThird.html" id="form">
         <table>
             <tr>
                 <td>
-                    <span>学历：</span>
+                    <span class="left">学历：</span>
                 </td>
                 <td>
-                    <select>
+                    <select class="select">
                         <option selected="selected">-请选择-</option>
                         <option>中职/高中</option>
                         <option>专科/本科</option>
@@ -28,10 +29,10 @@
             </tr>
             <tr>
                 <td>
-                    <span>所在城市：</span>
+                    <span class="left">所在城市：</span>
                 </td>
                 <td>
-                    <select>
+                    <select class="select">
                         <option selected="selected">-请选择-</option>
                         <option>北京</option>
                         <option>上海</option>
@@ -42,17 +43,15 @@
             </tr>
             <tr>
                 <td>
-                    <span>自我介绍：</span>
+                    <span class="left">自我介绍：</span>
                 </td>
                 <td>
-                    <textarea cols="60" rows="8"></textarea>
+                    <textarea cols="60" rows="8" placeholder="请用一句话来介绍自己吧！" name="introduction" required></textarea>
                 </td>
             </tr>
             <tr>
-                <td>
-                    <button type="submit">
-                        <a href="registerThird.html">下一步</a>
-                    </button>
+                <td colspan="2">
+                    <button type="submit">完成</button>
                 </td>
             </tr>
         </table>
