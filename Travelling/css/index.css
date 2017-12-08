@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    border: 0px;
+    background: none;
+    list-style: none;
+}
+
+
+
+/*albums*/
+.PhotoFrame{
+    float: left;
+    width: 50%;
+    overflow: hidden;
+}
+
+#FirstPhoto {
+    /*这里要有宽度才能撑开，用img可以撑开，background的url要宽度*/
+}
+
+.Desc{
+    padding-top: 8em;
+    float: left;
+    width: 50%;
+}
+
+.Desc h4{
+    text-align: center;
+    font-family: 'Bad Script', cursive;
+    font-size: 2.5em;
+    font-weight: 300;
+    color: #000;
+    margin-bottom: 0.8em;
+}
+
+.Desc p{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    color: #999;
+    line-height: 2em;
+    font-weight: 200;
+}
