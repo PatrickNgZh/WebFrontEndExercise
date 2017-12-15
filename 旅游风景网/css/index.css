@@ -7,9 +7,18 @@
     list-style: none;
 }
 
+/*修复顶部的空白*/
+#carousel-example-generic{
+    padding-top: 58px;
+}
 
 
 /*albums*/
+.row{
+    float: left;
+    width: 100%;
+}
+
 .PhotoFrame{
     float: left;
     width: 50%;
@@ -43,3 +52,4 @@
     line-height: 2em;
     font-weight: 200;
 }
+
