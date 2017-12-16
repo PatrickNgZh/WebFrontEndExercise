@@ -21,10 +21,6 @@
     overflow: hidden;
 }
 
-#FirstPhoto {
-    /*这里要有宽度才能撑开，用img可以撑开，background的url要宽度*/
-}
-
 .Desc{
     padding-top: 8em;
     float: left;
