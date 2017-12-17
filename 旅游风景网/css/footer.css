@@ -8,7 +8,7 @@ footer {
     margin-top: 50px;
     width: 100%;
     height: 220px;
-    background-color: #333;
+    background: #333 fixed;
 }
 
 #content {
