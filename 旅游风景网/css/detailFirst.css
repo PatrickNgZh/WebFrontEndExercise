@@ -40,6 +40,7 @@
 }
 
 #content h2 {
+    width: 50%;
     position: relative;
     left: 10%;
     color: #000;
@@ -50,14 +51,15 @@
 
 #left-content {
     float: left;
-    width: 50%;
-    text-indent: 10%;
+    width: 40%;
+    padding-left: 10%;
 }
 
 #right-content {
     float: left;
-    width: 50%;
-    text-indent: 10%;
+    width: 40%;
+    padding-right: 5%;
+    padding-left: 5%;
 }
 
 
