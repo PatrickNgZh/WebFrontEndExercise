@@ -13,5 +13,17 @@ window.onload = function () {
         // console.log("out");
         img.style.display = "none";
     };
+    document.getElementById("wechat").onmouseover = function (ev) {
+        var temp = document.getElementById("wechat");
+        var img = document.getElementById("wechat-pop");
+        temp.style.backgroundImage = "url(images/wechat_hl.svg)";
+        img.style.display = "block";
+    };
+    document.getElementById("wechat").onmouseout = function (ev) {
+        var temp = document.getElementById("wechat");
+        var img = document.getElementById("wechat-pop");
+        temp.style.backgroundImage = "url(images/wechat.svg)";
+        img.style.display = "none";
+    };
 };
 

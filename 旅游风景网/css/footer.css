@@ -7,7 +7,7 @@
 footer {
     margin-top: 50px;
     width: 100%;
-    height: 220px;
+    height: 250px;
     background: #333 fixed;
 }
 
@@ -31,15 +31,13 @@ footer {
 #weibo {
     position: relative;
     top: 50%;
-    left: 40%;
+    left: 50%;
     float: left;
     width: 40px;
     height: 40px;
     background: url("../images/weibo.svg") no-repeat;
     background-size: 30px;
     border-radius: 4px;
-    width: 40px;
-    height: 40px;
     margin-left: 10px;
     cursor: pointer;
     transition: all .3s;
@@ -48,15 +46,13 @@ footer {
 #wechat {
     position: relative;
     top: 50%;
-    left: 60%;
+    left: 70%;
     float: left;
     width: 40px;
     height: 40px;
     background: url("../images/wechat.svg") no-repeat;
     background-size: 30px;
     border-radius: 4px;
-    width: 40px;
-    height: 40px;
     margin-left: 10px;
     cursor: pointer;
     transition: all .3s;
@@ -64,8 +60,9 @@ footer {
 
 
 #copyright {
+    line-height: 30px;
     clear: left;
-    margin: 0px auto;
+    margin: 0 auto;
     width: 980px;
     height: 100px;
     text-align: center;
@@ -92,4 +89,14 @@ a:hover {
     z-index: 2;
     top: 40px;
     right: 30px;
+}
+
+#wechat-pop {
+    position: relative;
+    top: 40px;
+    right: 30px;
+    display: none;
+    width: 100px;
+    height: 100px;
+    z-index: 2;
 }
