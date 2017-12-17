@@ -49,7 +49,7 @@
 }
 
 .header .inner_c .nav ul li a:hover {
-    background-color: #0e8b61;
+    border-bottom: 5px solid #0e8b61;
 }
 
 .header .inner_c .nav ul li .last {
