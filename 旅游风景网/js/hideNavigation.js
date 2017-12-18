@@ -3,9 +3,10 @@ var scrollFunc = function (e) {
     var header = document.getElementById("header");
     var status = getComputedStyle(header).getPropertyValue("opacity");
     if (e.wheelDelta > 0) { //当滑轮向上滚动时
-        status = 1;
+        status = 0.84;
         if($(document).scrollTop()<421){
             header.style.backgroundColor="";
+            status = 1;
         }
         else{
             header.style.backgroundColor="#005c30";
@@ -17,5 +18,6 @@ var scrollFunc = function (e) {
         // document不用加双引号
     }
     header.style.opacity = status;
+    // console.log(status);
 };
 window.onmousewheel = document.onmousewheel = scrollFunc;
