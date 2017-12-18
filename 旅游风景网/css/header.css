@@ -14,6 +14,10 @@
     /*opacity:0.9;*/
 }
 
+#index-show {
+    background-color: #0e8b61;
+}
+
 .header .inner_c {
     width: 980px;
     height: 58px;

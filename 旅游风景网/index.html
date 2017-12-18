@@ -5,11 +5,14 @@
     <title>旅游风景网</title>
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link rel="stylesheet" href="css/header.css" type="text/css">
-    <link rel="stylesheet" href="css/footer.css" type="text/css">
     <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+    <!--注意引入顺序-->
+    <link rel="stylesheet" href="css/footer.css" type="text/css">
+
     <!--不要去用beta版，不稳定-->
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/hideNavigation.js"></script>
+    <script type="text/javascript" src="js/contactMethod.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <!--jquery引入顺序要第一位-->
 </head>
@@ -20,16 +23,17 @@
         <div class="nav">
             <ul>
                 <li id="index-show"><a href="index.html">网站首页</a></li>
-                <li><a href="http://zhaosheng.zhbit.com/Column/setting">专业设置</a></li>
-                <li><a href="http://dangqun.zhbit.com/">党务工作</a></li>
-                <li><a href="http://guojihz.zhbit.com/">国际交流</a></li>
-                <li><a href="http://www.zhbit.com/zhaos_jy/jycy.html">就业创业</a></li>
+                <li><a href="detailFirst.html">旅行游记</a></li>
+                <li><a href="http://dangqun.zhbit.com/">旅行游记</a></li>
+                <li><a href="http://guojihz.zhbit.com/">旅行游记</a></li>
+                <li><a href="http://www.zhbit.com/zhaos_jy/jycy.html">关于我们</a></li>
                 <li class="last"><a href="RegisterFirst.html">用户注册</a></li>
             </ul>
         </div>
         <a href="login.html" class="jrwm">登录</a>
     </div>
 </div>
+
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -66,6 +70,7 @@
         <span class="sr-only">Next</span>
     </a>
 </div>
+
 <div id="albums">
     <div id="FirstRow" class="row">
         <div class="PhotoFrame">
@@ -95,6 +100,7 @@
         </div>
     </div>
 </div>
+
 <footer>
     <div id="contact">
         <div id="logo">
@@ -104,10 +110,11 @@
             <div id="weibo">
                 <img src="images/cat.jpeg" alt="" id="weibo-pop">
             </div>
-            <div id="wechat"></div>
+            <div id="wechat">
+                <img src="images/cat.jpeg" alt="" id="wechat-pop">
+            </div>
         </div>
     </div>
-
     <div id="copyright">
         <p>
             <span class="copyright-span"><a href="#">公司简介</a></span>
@@ -128,5 +135,6 @@
         </p>
     </div>
 </footer>
+
 </body>
 </html>

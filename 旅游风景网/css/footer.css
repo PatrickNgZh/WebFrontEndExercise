@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 * {
     margin: 0;
     padding: 0;
@@ -5,6 +7,7 @@
 }
 
 footer {
+    float: left;
     margin-top: 50px;
     width: 100%;
     height: 250px;
@@ -64,17 +67,23 @@ footer {
     clear: left;
     margin: 0 auto;
     width: 980px;
-    height: 100px;
+    height: 120px;
     text-align: center;
 }
 
 a {
+    font-size: 15px;
     color: #999;
     text-decoration: none;
 }
 
+p {
+    margin-bottom: 0px;
+}
+
 a:hover {
     color: #31c27c;
+    text-decoration: none;
 }
 
 .copyright-span {

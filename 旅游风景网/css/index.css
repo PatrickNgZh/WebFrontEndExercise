@@ -7,11 +7,10 @@
     list-style: none;
 }
 
-#index-show {
-    background-color: #0e8b61;
+#albums {
+    float: left;
 }
 
-/*albums*/
 .row{
     float: left;
     width: 100%;
