@@ -109,3 +109,15 @@ a:hover {
     height: 100px;
     z-index: 2;
 }
+
+#logo {
+    text-align: center;
+    color: #fff;
+    font-size: 2em;
+    padding-top: 50px;
+}
+
+#logo p {
+    display: inline;
+    margin-left: 30px;
+}

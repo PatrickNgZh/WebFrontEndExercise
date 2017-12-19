@@ -26,6 +26,9 @@
 
 .header .inner_c img {
     float: left;
+    margin-right: 40px;
+    margin-left: 70px;
+    margin-top: 8px;
 }
 
 .header .inner_c .nav {
