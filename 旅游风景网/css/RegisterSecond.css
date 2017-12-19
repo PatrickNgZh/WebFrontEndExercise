@@ -15,6 +15,7 @@ body {
     font-family: "微软雅黑";
     font-size: 14px;
     font-weight: bold;
+    background: #f2f4f7;
 }
 
 #banner {
@@ -27,16 +28,16 @@ body {
 }
 
 #content {
-    width: 980px;
-    margin: 0px auto;
+    background: #fff;
+    border-radius: 5px;
+    margin: 80px auto;
+    width: 500px;
+    padding: 60px;
 }
 
-.left {
-    margin-left: 300px;
-}
 
 td {
-    padding: 18px;
+    padding: 20px 20px 20px 0;
 }
 
 .select{
@@ -80,7 +81,7 @@ textarea:required:valid {
 
 button {
     padding: 8px 15px;
-    margin-left: 450px;
+    margin-left: 180px;
     background: #68b12f;
     border: 1px solid #509111;
     border-radius: 3px;
