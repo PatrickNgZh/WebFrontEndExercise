@@ -8,10 +8,10 @@
 
 footer {
     float: left;
-    margin-top: 50px;
+    /*margin-top: 50px;*/
     width: 100%;
     height: 250px;
-    background: #333 fixed;
+    background: #333;
 }
 
 #content {

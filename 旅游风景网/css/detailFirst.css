@@ -148,4 +148,10 @@
     padding-left: 5%;
 }
 
-
+#footer-style {
+    margin-top: 30px;
+    float: left;
+    width: 100%;
+    height: 60px;
+    background: url("../images/footer-bg.PNG") center;
+}

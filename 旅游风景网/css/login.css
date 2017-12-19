@@ -138,3 +138,11 @@ label:before {
     background: #f2f4f7;
     opacity: 0;
 }
+
+#footer-style {
+    margin-top: 30px;
+    float: left;
+    width: 100%;
+    height: 60px;
+    background: url("../images/footer-bg.PNG") center;
+}
