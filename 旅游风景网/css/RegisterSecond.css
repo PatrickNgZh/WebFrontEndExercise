@@ -15,11 +15,12 @@ body {
     font-family: "微软雅黑";
     font-size: 14px;
     font-weight: bold;
-    background: url("../images/BannerFirst.jpeg") no-repeat;
+    background: url("../images/BannerFirst.jpeg")  top center no-repeat; background-size:cover;;
 }
 
 
 #content {
+    clear: left;
     background: #fff;
     border-radius: 5px;
     margin: 60px auto;
